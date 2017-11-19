@@ -16,7 +16,7 @@ const kebabCase = require('lodash.kebabcase')
 const path = require('path')
 
 // Init logger
-const debug = require('debug')('loopback:component:built-in-model-extender')
+const debug = require('debug')('loopback:component:extender')
 
 module.exports = (app, {models, options}) => {
   // Init options
